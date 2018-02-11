@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #999;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="icons__phone">
+    <path class="cls-1" d="M955.5,1144h-23a2.5,2.5,0,0,0-2.5,2.5v35a2.5,2.5,0,0,0,2.5,2.5h23a2.5,2.5,0,0,0,2.5-2.5v-35A2.5,2.5,0,0,0,955.5,1144Zm-23,37.5V1179h6.25v-2.5H932.5v-30h23v30h-6.25v2.5h6.25v2.5h-23Z" transform="translate(-912 -1132)"/>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+// Imports
+
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700,700i');
+
+// Media queries
+
+@media screen, print and (min-width: 64em) {
+
+}
+
+// Overrides
+
+a.button img {
+	float: left;
+	margin-top: -7px;
+}
+
+a.button {
+	letter-spacing: .075rem;
+	position: relative;
+}
+
+.secondary {
+	border: 1px solid $medium-gray !important;
+	padding-right: 40px !important;
+}
+
+// Layout elements
+
+.fillup {
+	background: $light-gray;
+}
+
+// spacers & pushers
+
+.pusher {
+	height: 16vh;
+}
+
+@for $i from 1 through 160 {
+    $spacer-height: $i;
+    div.spacer-#{$spacer-height} { 
+        height: $spacer-height#{px};
+        }
+}
+
+// PAGES
+
+// element positioning
+
+.group_initial {
+	position: relative;
+}
+
+.group {
+	position: relative;
+	top: calc(-1rem - 8px);
+}
+
+.bt_behance {
+	top: 0rem;
+}
+
+.bt_contacts {
+	top: 0rem;
+}
+
+.bt_email {
+	top: 0rem;
+}
+
+.bt_phone {
+	top: calc(-4rem + 1px);
+}
+
+.bt_cancel {
+	top: calc(-8rem + 1px);
+}
+
+// content
+
+.avatar {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.name,
+.role {
+	font-weight: bold;
+}
+
+.role {
+	color: $dark-gray;
+}
+

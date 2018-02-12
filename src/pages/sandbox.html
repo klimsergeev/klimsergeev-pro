@@ -1,0 +1,37 @@
+---
+title: Sandbox navigation
+---
+
+<div class="grid-container">
+
+	<div class="spacer-64"></div>
+
+	<div class="grid-x grid-margin-x">
+		<div class="cell medium-offset-3 medium-6">
+			<h5 class="text-center"><strong>Sandbox navigation</strong></h5>
+		</div>
+	</div>
+
+	<div class="spacer-32"></div>
+
+	<div class="grid-x grid-margin-x">
+		<div class="cell medium-offset-3 medium-6 large-offset-3 large-6">
+			
+				<a href="/sandbox" class="button rounded">Go to Sandbox mainpage</a>
+
+				<?
+					$dirs = array_filter(glob('*'), 'is_dir');
+
+					$length = count($dirs);
+					$prefix = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+					$link = "";
+					foreach ($dirs as $value) {
+						$link = $prefix . $value;
+						print_r('<a class="button rounded hollow" href="' . $link . '">' . $value . '</a>');
+					}
+				?>
+
+		</div>
+	</div>
+
+</div>

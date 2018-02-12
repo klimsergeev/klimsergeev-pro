@@ -1,7 +1,10 @@
 @charset 'utf-8';
 
 @import 'settings';
-@import 'components/2018-02-11';
+@import 'components/mainpage';
+@import 'components/error';
+@import 'components/sandbox';
+
 @import 'foundation';
 @import 'motion-ui';
 

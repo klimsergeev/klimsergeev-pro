@@ -6,14 +6,26 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=LbWgqQpwJwAaCb">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?v=LbWgqQpwJwAaCb">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?v=LbWgqQpwJwAaCb">
+    <link rel="manifest" href="/site.webmanifest?v=LbWgqQpwJwAaCb">
+    <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg?v=LbWgqQpwJwAaCb" color="#2299dd">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico?v=LbWgqQpwJwAaCb">
+    <meta name="apple-mobile-web-app-title" content="Sergey Klimenko">
+    <meta name="application-name" content="Sergey Klimenko">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#2299dd">
   </head>
   <body>
+
+    {{> ym_counter}}
 
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> body}}
 
-    <script src="{{root}}assets/js/app.js"></script>
+    <script src="/assets/js/app.js"></script>
   </body>
 </html>
